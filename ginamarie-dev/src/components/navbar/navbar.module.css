@@ -1,0 +1,36 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 36px;
+    margin-inline-start: 30px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-inline-end: 30px;
+}
+
+.link {
+
+}
+
+.logout{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #d3f6ff;
+    border-radius: 20%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logout {
+    background-color: #46769B;
+  }
+}
